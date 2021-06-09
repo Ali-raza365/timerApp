@@ -1,0 +1,34 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: aquamarine; */
+  min-height: 300px;
+  margin-top: 50px;
+  /* padding-top: 50px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-circle {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid purple;
+  border-radius: 160px;
+  color: purple;
+}
+
+.button-wrapper {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: orchid;
+  cursor: pointer;
+}
